@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* to define custome css clases for use */
+@layer utilities {
+    .h-80vh-custom {
+      height: 80vh;
+    }
+    .l-20{
+      width: 20vw;
+    }
+    .l-80{
+      width: 80vw;
+    }
+    .w-30-per{
+      width:31%;
+    }
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
