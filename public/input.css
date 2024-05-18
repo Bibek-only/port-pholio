@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* to define custome css clases for use */
 @layer utilities {
+  .fontpp{
+    font-family: "Poppins", sans-serif;
+  }
+.fontclicker{
+  font-family: "Clicker Script",cursive;
+}
     .h-80vh-custom {
       height: 80vh;
     }
@@ -19,6 +27,27 @@
     .w-45-per{
         width: 45%;
         
+    }
+    .w-70-per{
+      width: 70%;
+    }
+    .w-90-per{
+      width: 90%;
+    }
+    .h-90-per{
+      height: 90%;
+    }
+    .w-95-per{
+      width: 95%;
+    }
+    .h-95-per{
+      height: 95%;
+    }
+    .mh-80{
+      min-height:80vh;
+    }
+    .bg-gray{
+      background-color:#111111 ;
     }
   }
 
